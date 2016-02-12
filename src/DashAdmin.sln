@@ -3,24 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src(2)", ".", "{BED78C44-0FA0-4DDD-9A72-525A1466D466}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DashAdmin", ".", "{BED78C44-0FA0-4DDD-9A72-525A1466D466}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_33157"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Source\Repos\DashAdmin\src\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_33157\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_11803"
+		Debug.AspNetCompiler.PhysicalPath = "..\src\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_11803\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_33157"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Source\Repos\DashAdmin\src\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_33157\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_11803"
+		Release.AspNetCompiler.PhysicalPath = "..\src\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_11803\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "33157"
+		VWDPort = "11803"
+		SlnRelativePath = "..\src\"
 	EndProjectSection
 EndProject
 Global

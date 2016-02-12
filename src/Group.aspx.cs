@@ -23,7 +23,7 @@ public partial class Group : System.Web.UI.Page
     //private String UpdateCommandGroup = "UPDATE [Group] SET [groupName] = @groupName, [Active] = @Active WHERE [ID] = @ID";
 
     // SELECT [ID], [Name] FROM [Meter] left join [GroupMeter] on [Meter].[ID] = [GroupMeter].[meterID] and [GroupMeter].[groupID] = {0} where [GroupMeter].[groupID] is NULL
-    public String stuff = "";
+
 
 
     protected void Page_Load(object sender, EventArgs e)
@@ -103,13 +103,12 @@ public partial class Group : System.Web.UI.Page
 
         protected void ButtonEdit_Click(object sender, EventArgs e)
         {
-
+            String stuff = "";
             Panel2.Visible = true;
 
             var btn = (Button)sender;
             var item = (ListViewItem)btn.NamingContainer;
             Label thelabel = (Label)item.FindControl("IDLabel");
-
             stuff = thelabel.Text;
 
             Session["groupid"] = stuff;
@@ -123,7 +122,7 @@ public partial class Group : System.Web.UI.Page
 
         protected void ButtonSave_Click(object sender, EventArgs e)
         {
-            //String stuff = "";
+            String stuff = "";
             Panel2.Visible = false;
 
             var btn = (Button)sender;
